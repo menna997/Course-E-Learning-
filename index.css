@@ -1,0 +1,1839 @@
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+
+    background: #F7F7F8;
+    /* width: 100%; */
+
+}
+
+
+@media screen and (min-width:1800px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1535px;
+    }
+}
+
+.sale {
+    /* padding: 40px 0 0 0; */
+    color: white;
+    font-size: 18px;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word"
+
+}
+
+/* @media screen and (min-width:390px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1500px;
+    }
+} */
+.nav {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+
+}
+
+.navBtn {
+
+    padding: 14px 0px;
+
+    justify-content: space-between;
+
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 30px;
+    display: flex;
+}
+
+.navBtn2 {
+
+    padding: 14px 0px;
+
+    justify-content: space-between;
+
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 6px;
+    align-items: center;
+    /* gap: 30px; */
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+
+    padding-left: 9px;
+
+    border-bottom: 0.6px #F1F1F3 solid;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 100px;
+
+}
+
+.btnSign {
+    color: #262626;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.cover {
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    background: #FF9500;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+}
+
+.cover2 {
+    padding-left: 39px;
+    padding-right: 34px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    background: #fdfcfb;
+    color: #262626;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+}
+
+
+.btnLogin {
+    color: #262626;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.navbar {
+    color: #262626;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.pages {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 26px;
+    display: flex;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    position: relative;
+    /* background: #F7F7F8 */
+}
+
+.secBored {
+
+    height: 100%;
+    position: relative;
+
+    gap: 60px;
+
+    margin: auto;
+    text-align: center;
+}
+
+.headerBorder {
+    align-self: stretch;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.text {
+    align-self: stretch;
+    text-align: center;
+    color: #262626;
+    font-size: 38px;
+
+    font-weight: 500;
+    line-height: 57px;
+    word-wrap: break-word
+}
+
+.paragraph {
+    align-self: stretch;
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+    font-family: ''Be Vietnam Pro'';
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.secText {
+    align-self: stretch;
+    height: 94px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: flex
+}
+
+.span {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 30px;
+    background: #FCFCFD;
+    border-radius: 11px;
+    border: 1px #F1F1F3 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex"
+
+}
+
+.spanUnlock {
+    color: #FF9500;
+    font-size: 48px;
+
+    font-weight: 600;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.spanCreative {
+    color: #1A1A1A;
+    font-size: 48px;
+
+    font-weight: 600;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.explore {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #FF9500;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    margin-right: 6px;
+}
+
+.secExplore {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.view {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: white;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    margin-left: 6px;
+}
+
+.secView {
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.secBtn {
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* gap: 12px; */
+    display: inline-flex;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.sponsors {
+    display: flex;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    padding: 30px;
+}
+
+.card-sponsors {
+    width: 100%;
+    background-color: transparent;
+    padding: 30px 40px;
+    border: none;
+    border-right: 1px solid #ececec;
+    border-radius: 0;
+}
+
+.card-sponsors:last-child {
+    border-right: none;
+}
+
+.card-sponsors img {
+    width: 80%;
+    margin: auto;
+}
+
+.sponsors {
+    display: flex;
+    padding: 30px;
+    background: #FCFCFD;
+    margin-bottom: 100px;
+}
+
+/* .sponsorsContainer {
+    margin-top: 9%;
+} */
+
+#index-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    background: url(image/Container.svg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.index-video-wrapper {
+
+    height: 100%;
+    width: 100%;
+    background: url(image/Container.svg) no-repeat center center;
+    background-size: cover;
+}
+
+/* .Benefits {
+    margin-top: 9%;
+    width: 100%;
+    color: #262626;
+    font-size: 48px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 600;
+    line-height: 72px;
+    word-wrap: break-word
+} */
+
+.textBenefits {
+    width: 100%;
+    color: #59595A;
+    font-size: 18px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.card-price {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    background: white;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 120px;
+    display: flex
+}
+
+.card-row {
+    align-self: stretch;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 12px;
+    border: 1px #F1F1F3 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    display: inline-flex
+}
+
+.card-border {
+    flex: 1 1 0;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.row-border {
+    padding: 12px;
+    background: #FFF4E5;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex
+}
+
+.specific {
+    width: 28px;
+    height: 28px;
+    position: relative
+}
+
+
+
+.card-btn {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: white;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex
+}
+
+.btn-FAQ {
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.row-price {
+    width: 408px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    display: inline-flex
+}
+
+.Frequently {
+    align-self: stretch;
+    color: #262626;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.60px;
+    word-wrap: break-word
+}
+
+.Still {
+    align-self: stretch;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.row-paragraph {
+    align-self: stretch;
+    /* height: 180px; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex
+}
+
+.rowPrices {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    display: inline-flex
+}
+
+.borderPrice {
+    align-self: stretch;
+    height: 426px;
+    padding: 50px;
+    background: white;
+    border-radius: 12px;
+    border: 1px #F1F1F3 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    display: flex;
+}
+
+.row-enroll {
+    align-self: stretch;
+    padding-bottom: 24px;
+    border-bottom: 1px #F1F1F3 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    display: inline-flex;
+}
+
+.enroll {
+    flex: 1 1 0;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.ourPricing {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    background: white;
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    display: inline-flex;
+}
+
+.cardWidth {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #FCFCFD;
+    border-radius: 12px;
+    border: 1px #F1F1F3 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    display: inline-flex;
+
+}
+
+
+.cardesBody {
+    align-self: stretch;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #FFF9F0;
+    border-radius: 6px;
+    border: 1px #FFEACC solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.Free-Plan {
+    color: #262626;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 37.18px;
+    word-wrap: break-word;
+}
+
+.cardTitle {
+    align-self: stretch;
+    justify-content: center;
+    align-items: flex-end;
+    display: inline-flex;
+    margin: 30px;
+}
+
+.month {
+    color: #4C4C4D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 14.60px;
+    word-wrap: break-word;
+}
+
+.dollar {
+    color: #262626;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 58.40px;
+    word-wrap: break-word;
+}
+
+.Available {
+    width: 100%;
+    text-align: center;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background: white;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border: 1px #F1F1F3 solid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    display: inline-flex;
+}
+
+.cardRow {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+}
+
+.Access {
+    color: #4C4C4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.icones-Row {
+    padding: 6px;
+    background: #FFF4E5;
+    border-radius: 6px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+
+}
+
+.style-btn {
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FF9500;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+}
+
+.Started {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    padding: 100px 162px 30px 162px;
+    background: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    display: inline-flex;
+}
+
+.cardTexts {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    display: inline-flex;
+}
+
+.rowTexts {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 300px;
+    display: inline-flex;
+}
+
+.cardparagraph {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+    align-items: flex-start;
+    gap: 6px;
+    display: inline-flex;
+}
+
+
+.card-OurPricing {
+    align-self: stretch;
+    color: #262626;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    word-wrap: break-word;
+
+}
+
+.lorem {
+    align-self: stretch;
+    color: #59595A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.cardBtns {
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.row-Monthly {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #FF9500;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.monthly {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.row-Yearly {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.yearly {
+    color: #4C4C4D;
+    font-size: 18px;
+
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.benefitsBtn {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #FCFCFD;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+}
+
+.benefits {
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.cardContainer {
+    /* margin-bottom: 100px; */
+    margin-top: 100px;
+}
+
+.cardBody {
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: inline-flex
+}
+
+
+
+.cardOne {
+    align-self: stretch;
+    text-align: right;
+    color: #262626;
+    font-size: 80px;
+
+    font-weight: 700;
+    line-height: 80px;
+    word-wrap: break-word;
+    margin: 0px 0px 50px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cardBody {
+    align-self: stretch;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+    display: flex;
+
+}
+
+.cardBody .title {
+    align-self: stretch;
+    color: #333333;
+    font-size: 24px;
+
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+    margin-bottom: 14px;
+}
+
+.cardBody .text {
+    align-self: stretch;
+    color: var(--Grey-30, #4C4C4D);
+    font-family: "Be Vietnam Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    text-align: left;
+
+}
+
+.cardFooter {
+    display: block;
+    margin-top: 50px;
+}
+
+.iconestyle {
+    padding: 20px;
+    background: #FCFCFD;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.cardEle {
+    width: 31%;
+    background: #fff;
+
+    margin: 0.5rem;
+    flex: 1 1 0;
+    padding: 50px;
+    background: white;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    display: inline-flex
+}
+
+.abstract {
+    position: absolute;
+    bottom: 19.7rem;
+    left: 14.5rem;
+}
+
+.borderButton {
+    align-self: stretch;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #F7F7F8;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: inline-flex
+}
+
+.Now {
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.cardContainerOne {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 80px 0 0px 0;
+}
+
+.cardEle1 {
+    display: inline-block;
+    width: 48%;
+    background: #fff;
+    /* padding: 50px; */
+    margin: 0.5rem;
+    flex: 1 1 0;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: inline-flex;
+    background: #fff;
+    padding: 50px;
+
+}
+
+.cardimge {
+    align-self: stretch;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.cardimge img {
+    width: 100%;
+}
+
+.cardContainerOne .card-Btns {
+    color: #4C4C4D;
+    font-size: 16px;
+
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 63%;
+    display: inline-block;
+
+}
+
+.cardContainerOne .cardData {
+    width: 100%;
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.cardContainerOne .card-Btns .period, .cardContainerOne .card-Btns .type {
+    padding: 10px 16px;
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.cardContainerOne .creator {
+    text-align: right;
+    width: 100%;
+}
+
+.cardContainerOne .cardtext {
+    margin-bottom: 53px;
+}
+
+.cardContainerOne .cardtext .title {
+    color: var(--Grey-15, #262626);
+    font-family: "Be Vietnam Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 36px */
+    margin-bottom: 14px;
+}
+
+.cardContainerOne .cardtext .text {
+    color: var(--Grey-30, #4C4C4D);
+    font-family: "Be Vietnam Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    text-align: left;
+    max-height: 84px;
+}
+
+.borderFullStory {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background: #F7F7F8;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    display: flex
+}
+
+.fullStory {
+    text-align: center;
+    color: #262626;
+    font-size: 18px;
+
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.borderImage {
+    flex: 1 1 0;
+    height: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    display: flex
+}
+
+.imag {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px
+}
+
+.rowImage {
+    flex: 1 1 0;
+    color: #333333;
+    font-size: 18px;
+
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.borderCard {
+    align-self: stretch;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FCFCFD;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex
+}
+
+.card2 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.rolle {
+    align-self: stretch;
+    height: 0px;
+    border: 1px #F1F1F3 solid
+}
+
+.design {
+    /* align-self: stretch;
+    padding: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-block; */
+    display: inline-block;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    max-height: 13rem;
+
+}
+
+.designParagraph {
+    flex: 1 1 0;
+    color: #4C4C4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word
+}
+
+.cardContainerTwo {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 80px 30px 50px 0;
+
+}
+
+.absolutely {
+    align-self: stretch;
+    color: #4c4c4d;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.absolutelyBorder {
+    align-self: stretch;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f7f7f8;
+    border-radius: 8px;
+    border: 1px #f1f1f3 solid;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.Enrollment {
+    flex: 1 1 0;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+.borderEnrollment {
+    padding: 14px;
+    background: white;
+    border-radius: 100px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+
+.cardEle2 {
+    width: 48%;
+    background: #fff;
+
+    margin: 0.5rem;
+    flex: 1 1 0;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: inline-flex;
+    background: #fff;
+}
+
+@media screen and (max-width: 675px) {
+
+
+    .cardEle, .cardEle1, .cardEle2 {
+        width: 100%;
+
+    }
+
+    .rowTexts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .cardContainer {
+        margin-top: 50px;
+    }
+
+    .abstract {
+        position: absolute;
+        bottom: 27.7rem;
+        right: 96%;
+        left: -21px;
+    }
+
+    .card-sponsors {
+        padding: 26px 10px;
+    }
+
+    .cols {
+        width: 100% !important;
+        /* margin: 10px; */
+    }
+
+    .ourPricing {
+        padding: 35px;
+    }
+
+    .card-row {
+        display: flex;
+        padding: 20px 24px;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+    }
+
+    .borderPrice {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .rowPrices {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .card-price {
+        display: flex;
+        width: 100%;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .absolutelyBorder {
+        display: flex;
+        padding: 12px 20px;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .row-price {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 378px) ,(max-width: 415px) ,(max-width: 366px)  {
+
+    .sale {
+        color: var(--Absolute-White, #FFF);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .cardEle, .cardEle1, .cardEle2 {
+        width: 100%;
+        margin: 0.5rem 0 0.5rem;
+    }
+
+    .design {
+        max-height: 19rem;
+        padding: 18px;
+
+    }
+
+    .rowTexts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .cardContainer {
+        margin-top: 50px;
+    }
+
+    .spanUnlock {
+        color: var(--Orange-50, #FF9500);
+        font-family: "Be Vietnam Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 24px */
+    }
+
+    .spanCreative {
+        color: var(--Grey-10, #1A1A1A);
+        font-family: "Be Vietnam Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+
+    }
+
+    .abstract {
+        position: absolute;
+        bottom: 17.7rem;
+        left: 6px;
+    }
+
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .cover2 {
+
+        padding-right: 23px;
+    }
+
+    .text {
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: "Be Vietnam Pro";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 36px */
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    .explore, .view {
+        display: flex;
+        padding: 14px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+    .secBtn {
+        margin-top: 50px;
+    }
+
+    .sponsors {
+        display: flex;
+        padding: 9px;
+        background: #FCFCFD;
+        margin-bottom: 50px;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .cardContainerOne .card-Btns {
+        display: flex;
+        width: 100%;
+    }
+
+    .cardContainerOne .card-Btns {
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    .cardContainerOne .cardtext .title {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 27px */
+    }
+
+    .cardContainerOne .cardtext .text {
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .card-OurPricing {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 42px */
+    }
+
+    .lorem {
+        color: var(--Grey-35, #59595A);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .borderCard {
+        display: flex;
+        padding: 7px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .cardContainerTwo {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 16px 0 0 0;
+    }
+
+    .cardWidth {
+        display: flex;
+        padding: 30px 20px 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+
+    .Free-Plan {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 169%;
+    }
+
+    .dollar {
+
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 73%;
+    }
+
+    .month {
+
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 73%;
+    }
+
+    .Available {
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: "Be Vietnam Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 27px */
+    }
+
+    .Access {
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+
+    }
+
+    .cards {
+        padding: 10px;
+    }
+
+    .ourPricing {
+        padding: 0px;
+    }
+
+    .Frequently {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 33.6px */
+    }
+}
+
+@media screen and (max-width: 393px) {
+
+    .sale {
+        color: var(--Absolute-White, #FFF);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .cardEle, .cardEle1, .cardEle2 {
+        width: 100%;
+        margin: 0.5rem 0 0.5rem;
+    }
+
+    .design {
+        max-height: 19rem;
+        padding: 18px;
+
+    }
+
+    .rowTexts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .cardContainer {
+        margin-top: 50px;
+    }
+
+    .spanUnlock {
+        color: var(--Orange-50, #FF9500);
+        font-family: "Be Vietnam Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 24px */
+    }
+
+    .spanCreative {
+        color: var(--Grey-10, #1A1A1A);
+        font-family: "Be Vietnam Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+
+    }
+
+    .abstract {
+        position: absolute;
+        bottom: 16.7rem;
+
+        left: 11px;
+    }
+
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .cover2 {
+
+        padding-right: 23px;
+    }
+
+    .text {
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: "Be Vietnam Pro";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 36px */
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    .explore, .view {
+        display: flex;
+        padding: 14px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+    }
+
+    .secBtn {
+        margin-top: 50px;
+    }
+
+    .sponsors {
+        display: flex;
+        padding: 9px;
+        background: #FCFCFD;
+        margin-bottom: 50px;
+    }
+
+    .section {
+        margin-bottom: 50px;
+    }
+
+    .cardContainerOne .card-Btns {
+        display: flex;
+        width: 100%;
+    }
+
+    .cardContainerOne .card-Btns {
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+
+    .cardContainerOne .cardtext .title {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 27px */
+    }
+
+    .cardContainerOne .cardtext .text {
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .card-OurPricing {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 42px */
+    }
+
+    .lorem {
+        color: var(--Grey-35, #59595A);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .borderCard {
+        display: flex;
+        padding: 7px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .cardContainerTwo {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 16px 0 0 0;
+    }
+
+    .cardWidth {
+        display: flex;
+        padding: 30px 20px 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+
+    .Free-Plan {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 169%;
+    }
+
+    .dollar {
+
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 73%;
+    }
+
+    .month {
+
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 73%;
+    }
+
+    .Available {
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: "Be Vietnam Pro";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        /* 27px */
+    }
+
+    .Access {
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+
+    }
+
+    .cards {
+        padding: 10px;
+    }
+
+    .ourPricing {
+        padding: 0px;
+    }
+
+    .Frequently {
+        color: var(--Grey-15, #262626);
+        font-family: "Be Vietnam Pro";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 33.6px */
+    }
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
