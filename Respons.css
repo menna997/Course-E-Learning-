@@ -19,22 +19,26 @@
 
 
 
-@media screen and (max-width: 430px) {
 
-    abstract {
-        position: absolute;
-        bottom: 16.7rem;
-        left: 25px;
+
+@media screen and (max-width: 915px) {
+    .navBtn2 {
+        padding: 14px 0px;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        /* margin-left: 6px; */
+        align-items: center;
+        gap: 20px;
+        display: inline-block;
     }
-}
-
-@media screen and (max-width: 675px), (max-width: 770px), (max-width: 886px), (max-width: 915px) {
 
     .cardparagraph {
         margin-top: 40px;
     }
 
-    .cardEle, .cardEle1, .cardEle2 {
+    .cardEle, .cardEle1, .cardEle2, .cardEle3 {
         width: 100%;
 
     }
@@ -116,9 +120,184 @@
     .row-price {
         width: 100%;
     }
+
+    .span {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 9px;
+        padding-right: 30px;
+        background: #FCFCFD;
+        border-radius: 11px;
+        border: 1px #F1F1F3 solid;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex";
+
+    }
+
+    .abstract {
+        position: absolute;
+        bottom: 23.7rem;
+        /* right: -19rem; */
+        left: 1px;
+    }
+
+    .spanCreative {
+        color: #1A1A1A;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 72px;
+        word-wrap: break-word;
+    }
+
 }
 
-@media screen and (max-width: 378px), (max-width: 366px), (max-width: 433px) {
+@media screen and (max-width: 770px) {
+
+
+    * .span {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 9px;
+        padding-right: 30px;
+        background: #FCFCFD;
+        border-radius: 11px;
+        border: 1px #F1F1F3 solid;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex";
+
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        padding-left: 9px;
+        border-bottom: 0.6px #F1F1F3 solid;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+        margin-bottom: 43px;
+    }
+
+    .abstract {
+        position: absolute;
+        bottom: 23.7rem;
+        /* right: -19rem; */
+        left: 1px;
+    }
+
+    .spanCreative {
+        color: #1A1A1A;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 72px;
+        word-wrap: break-word;
+    }
+
+    .navBtn2 {
+        padding: 14px 0px;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        /* margin-left: 6px; */
+        align-items: center;
+        gap: 20px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .span {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 9px;
+        padding-right: 30px;
+        background: #FCFCFD;
+        border-radius: 11px;
+        border: 1px #F1F1F3 solid;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: inline-flex";
+
+    }
+
+    .header {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        padding-left: 9px;
+        border-bottom: 0.6px #F1F1F3 solid;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+        margin-bottom: 43px;
+    }
+
+    .abstract {
+        position: absolute;
+        bottom: 23.7rem;
+        /* right: -19rem; */
+        left: -7px;
+
+
+
+    }
+
+    .spanUnlock {
+        color: #FF9500;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 72px;
+        word-wrap: break-word;
+    }
+
+    .spanCreative {
+        color: #1A1A1A;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 72px;
+        word-wrap: break-word;
+    }
+
+    .navBtn2 {
+        padding: 14px 0px;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        /* margin-left: 6px; */
+        align-items: center;
+        gap: 20px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 433px) {
+    .pages {
+        justify-content: flex-start;
+        align-items: center;
+        /* gap: 26px; */
+        display: inline-block;
+    }
+
+    .navBtn {
+        display: inline-block;
+        /* padding: 14px 0px; */
+        width: 100%;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 0px;
+        display: flex;
+    }
 
     .sale {
         color: var(--Absolute-White, #FFF);
@@ -129,7 +308,7 @@
         line-height: 150%;
     }
 
-    .cardEle, .cardEle1, .cardEle2 {
+    .cardEle, .cardEle1, .cardEle2, .cardEle3 {
         width: 100%;
         margin: 0.5rem 0 0.5rem;
     }
@@ -138,6 +317,41 @@
         max-height: 19rem;
         padding: 18px;
 
+    }
+
+    .designs {
+        max-height: 19rem;
+        padding: 18px;
+
+    }
+
+    .borderCards {
+        align-self: stretch;
+        padding: 1px;
+        /* background: #FCFCFD; */
+        justify-content: flex-start;
+        align-items: center;
+        /* display: inline-flex; */
+    }
+
+    .designParagraphs {
+        flex: 1 1 0;
+        color: #4C4C4D;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        padding-top: 5px;
+        word-wrap: break-word;
+    }
+
+    .rowImages {
+        flex: 1 1 0;
+        color: #333333;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        word-wrap: break-word;
+        padding-top: 18px;
     }
 
     .rowTexts {
@@ -175,8 +389,8 @@
 
     .abstract {
         position: absolute;
-        bottom: 17.7rem;
-        left: 6px;
+        bottom: 16.7rem;
+        left: 25px;
     }
 
     .header {
@@ -376,6 +590,56 @@
 }
 
 @media screen and (max-width: 415px) {
+    .cardFooter {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .cardBody .title {
+        align-self: stretch;
+        color: #333333;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 34px;
+        word-wrap: break-word;
+        margin-bottom: 2px;
+    }
+
+    .cardBody .text {
+        align-self: stretch;
+        color: var(--Grey-30, #4C4C4D);
+        font-family: "Be Vietnam Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        text-align: left;
+    }
+
+    .cardOne {
+        align-self: stretch;
+        text-align: right;
+        color: #262626;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 24px;
+        word-wrap: break-word;
+        margin: 0px 0px 50px 0;
+        /* width: 100%; */
+        height: 100%;
+    }
+
+    .iconestyle {
+        padding: 7px;
+        background: #FCFCFD;
+        border-radius: 8px;
+        border: 1px #F1F1F3 solid;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
 
     .sale {
         color: var(--Absolute-White, #FFF);
@@ -386,12 +650,18 @@
         line-height: 150%;
     }
 
-    .cardEle, .cardEle1, .cardEle2 {
+    .cardEle, .cardEle1, .cardEle2, .cardEle3 {
         width: 100%;
         margin: 0.5rem 0 0.5rem;
     }
 
     .design {
+        max-height: 19rem;
+        padding: 18px;
+
+    }
+
+    .designs {
         max-height: 19rem;
         padding: 18px;
 
@@ -474,11 +744,31 @@
         margin-top: 50px;
     }
 
-    .sponsors {
+    /* .sponsors {
         display: flex;
         padding: 9px;
         background: #FCFCFD;
         margin-bottom: 50px;
+    } */
+    .sponsors {
+        width: 100%;
+        display: flex;
+        margin-bottom: 52px;
+
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding: 3px;
+        background: rgb(252, 252, 253);
+
+    }
+
+    .card-sponsors {
+        width: 100%;
+        background-color: transparent;
+        padding: 27px 55px;
+        border: none;
+        border-right: 1px solid #ececec;
+        border-radius: 0;
     }
 
     .section {
@@ -549,6 +839,13 @@
     }
 
     .cardContainerTwo {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 16px 0 0 0;
+    }
+
+    .cardContainerFour {
         width: 100%;
         height: 100%;
         display: inline-block;
@@ -634,7 +931,10 @@
     }
 }
 
+
+
 @media screen and (max-width: 393px) {
+
 
     .sale {
         color: var(--Absolute-White, #FFF);
@@ -645,12 +945,18 @@
         line-height: 150%;
     }
 
-    .cardEle, .cardEle1, .cardEle2 {
+    .cardEle, .cardEle1, .cardEle2, .cardEle3 {
         width: 100%;
         margin: 0.5rem 0 0.5rem;
     }
 
     .design {
+        max-height: 19rem;
+        padding: 18px;
+
+    }
+
+    .designs {
         max-height: 19rem;
         padding: 18px;
 
@@ -814,6 +1120,13 @@
         padding: 16px 0 0 0;
     }
 
+    .cardContainerFour {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        padding: 16px 0 0 0;
+    }
+
     .cardWidth {
         display: flex;
         padding: 30px 20px 20px 20px;
@@ -892,15 +1205,56 @@
     }
 }
 
+@media screen and (max-width: 365px) {
+    .abstract {
+        position: absolute;
+        bottom: 19.7rem;
+        left: 1px;
+    }
+
+    .designParagraph {
+        flex: 1 1 0;
+        color: #4C4C4D;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        word-wrap: break-word;
+    }
+
+    .countactform {
+        padding: 27px 0px;
+        background: #f2f2f83b;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    abstract {
+        position: absolute;
+        bottom: 16.7rem;
+        left: 25px;
+    }
+
+    .designs {
+        display: inline-block;
+        padding: 40px;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+        max-height: 28rem;
+    }
+}
+
+
 ::-webkit-scrollbar {
-    width: 1em;
+    width: 2px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 2px rgba(245, 242, 242, 0.3);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
+    background-color: rgb(250, 250, 250);
+    outline: 1px solid rgb(253, 254, 255);
 }

@@ -198,6 +198,3 @@ const postMethod2 = ()=> {
 }
 postMethod2()
 
-const scrollSpy = new bootstrap.ScrollSpy(document.body, {
-    target: '.sponsors'
-  })

@@ -1,0 +1,114 @@
+#index-videos {
+    height: 790px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -100;
+    right: 0;
+    bottom: 0;
+    background: url(image/Image\ \(15\).svg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.index-video-wrappers {
+
+    height: 790px;
+    width: 100%;
+    background: url(image/Image\ \(15\).svg) no-repeat center center;
+    background-size: cover;
+}
+
+.bodyContainer {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px #E4E4E7 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.cardEle3 {
+    display: inline-block;
+    width: 48%;
+    background: #fff;
+    /* padding: 50px; */
+    margin: 0.5rem;
+    flex: 1 1 0;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: inline-flex;
+    background: #fff;
+    padding: 22px;
+
+}
+
+.cardsOne {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background: white;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    display: inline-flex;
+}
+
+.cardRow {
+    width: 96%;
+    height: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px #F1F1F3 solid;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 35px; */
+    /* display: inline-block; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+span {
+    color: rgba(89, 89, 90, 1);
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro';
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.Access {
+    color: #4C4C4D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    word-wrap: break-word;
+    display: inline-block;
+    width: 85%;
+}
+
+.type {
+    left: 12px px;
+    /* color: gray; */
+    border: 0;
+    border-radius: 1px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.cardBody .title {
+    align-self: stretch;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    word-wrap: break-word;
+    padding-left: 45px;
+    margin-bottom: 14px;
+}
