@@ -29,7 +29,7 @@
     border-bottom: 0px;
     justify-content: flex-start;
     align-items: center;
-    gap: 100px;
+    /* gap: 100px; */
     display: inline-flex;
 }
 
@@ -99,7 +99,7 @@
 
         justify-content: flex-start;
         align-items: center;
-        gap: 100px;
+        /* gap: 100px; */
         display: inline-block;
     }
 }
@@ -112,7 +112,7 @@
 
         justify-content: flex-start;
         align-items: center;
-        gap: 100px;
+        /* gap: 100px; */
         display: inline-block;
     }
 

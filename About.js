@@ -38,7 +38,7 @@ const postMethod2 = ()=> {
         postElement2.innerHTML = `
         <div class="designs">
         <div class="borderCards">
-        <div class="icone">
+        <div class=",">
         ${postData2.icons3}
         </div>
         <div class="borderImages" >
@@ -52,7 +52,7 @@ const postMethod2 = ()=> {
        
     </div>
 </div>
-      `
+      `;
         postCard2.appendChild(postElement2)
     })
 }

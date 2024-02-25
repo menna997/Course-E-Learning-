@@ -14,28 +14,28 @@ const postMethod2 = () => {
     const postElement2 = document.createElement("div");
     postElement2.classList.add("cardEle2");
     postElement2.innerHTML = `
-        <div class="design">
-        <div class="designParagraph" >${postData2.body3}</div>
-    </div>
-    <div class="rolle" ></div>
-    <div class="borderCard">
-        <div class="borderImage" >
-        ${postData2.icons3}
-            <div class="rowImage">${postData2.type3}</div>
-        </div>
-        <div class="borderFullStory" >
-            <div class="fullStory" >${postData2.button3}</div>
-        </div>
-    </div>
-</div>
-      `;
+          <div class="design">
+          <div class="designParagraph" >${postData2.body3}</div>
+      </div>
+      <div class="rolle" ></div>
+      <div class="borderCard">
+          <div class="borderImage" >
+          ${postData2.icons3}
+              <div class="rowImage">${postData2.type3}</div>
+          </div>
+          <div class="borderFullStory" >
+              <div class="fullStory" >${postData2.button3}</div>
+          </div>
+      </div>
+  </div>
+        `;
     postCard2.appendChild(postElement2);
   });
 };
 postMethod2();
 
 const form = document.getElementById("form");
-
+const first = document.getElementById("first");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 
@@ -68,9 +68,14 @@ const isValidEmail = (email) => {
 };
 
 const validateInputs = () => {
+  const firstValue = first.value.trim();
   const emailValue = email.value.trim();
   const passwordValue = password.value.trim();
-
+  if (firstValue === "") {
+    setError(first, "Name is required");
+  } else {
+    setSuccess(first);
+  }
   if (emailValue === "") {
     setError(email, "Email is required");
   } else if (!isValidEmail(emailValue)) {
